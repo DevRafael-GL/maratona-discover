@@ -208,6 +208,10 @@ td.expense {
   color: #e92929;
 }
 
+.removeTransaction {
+  cursor: pointer;
+}
+
 /* Modal =================== */
 .modal-overlay {
   width: 100%;
@@ -260,7 +264,7 @@ input {
   margin-top: 0.8rem;
 }
 
-.input-group small {
+.input-group .help {
   opacity: 0.4;
 }
 
